@@ -42,7 +42,7 @@ header span{
 #container-todolist{
     background-color: #fff;
     border-radius: 0 0 10px 10px;
-    height: 100px;
+    /* height: 100px; */
     padding: 15px 40px;
 }
 
@@ -60,4 +60,25 @@ header span{
 .blue-btn{
     background-color: #4da1ff;
     color: #fff;
+}
+
+/* sezione todolist */
+.cont-task{
+    margin: 20px 0;
+    color: #4b4e57;
+}
+.task{
+    font-size: 22px;
+    font-weight: 600;
+}
+.todo{
+    font-size: 15px;
+    padding: 6px 10px;
+}
+.check{
+    color: rgb(6, 248, 66);
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 3px;
+    font-size: 13px;
 }
