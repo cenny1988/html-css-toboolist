@@ -57,10 +57,7 @@ header span{
     text-align: center;
     margin-right: 5px;
 }
-.blue-btn{
-    background-color: #4da1ff;
-    color: #fff;
-}
+
 
 /* sezione todolist */
 .cont-task{
@@ -72,13 +69,55 @@ header span{
     font-weight: 600;
 }
 .todo{
+    height: 25px;
     font-size: 15px;
     padding: 6px 10px;
 }
-.check{
-    color: rgb(6, 248, 66);
+.entity{
     border: 1px solid;
     border-radius: 20px;
     padding: 3px;
     font-size: 13px;
+}
+.check{
+    color: rgb(6, 248, 66);
+}
+.cross{
+    color: red
+}
+.btn-task{
+    font-size: 8px;
+    border-radius: 30px;
+    padding: 5px 15px;
+    margin-left: 15px;
+}
+
+
+
+
+
+/* button color */
+.blue-btn{
+    background-color: #4da1ff;
+    color: #fff;
+}
+.violet-btn{
+    background-color: #b139f7;
+    color: #fff;
+}
+.green-btn{
+    background-color: green;
+    color: #fff;
+}
+.orange-btn{
+    background-color: orange;
+    color: #fff;
+}
+.pink-btn{
+    background-color: palevioletred;
+    color: #fff;
+}
+.lightgreen-btn{
+    background-color: rgb(62, 245, 62);
+    color: #fff;
 }
