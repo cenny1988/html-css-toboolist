@@ -28,6 +28,13 @@ header span{
     vertical-align: middle;
 }
 
-
-
 /* impostazioni main */
+.middle{
+    width: 80%;
+    height: 250px; /* da cancellare più avanti */
+    margin: 30px auto;
+}
+#container{
+    background-color: #fff;
+    border-radius: 10px;
+}
