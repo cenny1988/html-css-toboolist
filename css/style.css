@@ -30,18 +30,34 @@ header span{
 
 /* impostazioni main */
 .middle{
-    width: 80%;
+    width: 70%;
     margin: 30px auto;
-    background-color: red;
 }
 #container-btn{
     background-color: #fff;
     border-radius: 10px 10px 0 0;
-    height: 100px;
     margin-bottom: 2px;
+    padding: 15px 40px;  
 }
 #container-todolist{
     background-color: #fff;
     border-radius: 0 0 10px 10px;
     height: 100px;
+    padding: 15px 40px;
+}
+
+/* sezione btn */
+.btn{
+    background-color: transparent;
+    color: lightslategray;
+    border-radius: 5px;
+    border: solid lightslategray 1px;
+    font-size: 13px;
+    padding: 7px 5px;
+    text-align: center;
+    margin-right: 5px;
+}
+.blue-btn{
+    background-color: #4da1ff;
+    color: #fff;
 }
