@@ -1,6 +1,33 @@
+/* impostazioni generalli */
 body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: antiquewhite;
+    background-color: #f6f8f9;
+    font-family: 'Roboto', sans-serif;
 }
+
+
+
+/* impostazioni header */
+header{
+    background-color: #fff;
+    /* height: 150px; */
+    padding: 5px 30px;
+
+}
+#logo{
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+}
+header span{
+    line-height: 40px;
+    font-weight: 900;
+    font-size: 40px;
+    vertical-align: middle;
+}
+
+
+
+/* impostazioni main */
