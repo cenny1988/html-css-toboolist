@@ -51,10 +51,11 @@ header span{
     color: lightslategray;
     border-radius: 5px;
     border: solid lightslategray 1px;
-    font-size: 13px;
-    padding: 7px 5px;
+    font-size: 15px;
+    padding: 8px 15px;
     text-align: center;
     margin-right: 5px;
+    cursor: pointer;
 }
 
 
@@ -74,10 +75,15 @@ header span{
     padding: 0 10px;
 }
 .entity{
+    display: inline-block;
     border: 1px solid;
-    border-radius: 20px;
-    padding: 3px;
-    font-size: 13px;
+    border-radius: 50%;
+    font-size: 10px;
+    height: 15px;
+    width: 15px;
+    text-align: center;
+    margin-right: 13px;
+    line-height: 15px;
 }
 .check{
     color: rgb(6, 248, 66);
