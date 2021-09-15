@@ -70,8 +70,9 @@ header span{
 }
 .todo{
     height: 25px;
+    line-height: 25px;
     font-size: 15px;
-    padding: 6px 10px;
+    padding: 0 10px;
 }
 .entity{
     border: 1px solid;
@@ -86,9 +87,9 @@ header span{
     color: red
 }
 .btn-task{
-    font-size: 8px;
+    font-size: 15px;
     border-radius: 30px;
-    padding: 5px 15px;
+    padding: 0 15px;
     margin-left: 15px;
     border: 0px;
 }
