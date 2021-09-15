@@ -1,8 +1,10 @@
 /* impostazioni generalli */
-body{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body{
     background-color: #f6f8f9;
     font-family: 'Roboto', sans-serif;
 }
@@ -12,17 +14,14 @@ body{
 /* impostazioni header */
 header{
     background-color: #fff;
-    height: 80px;
-    padding: 5px 30px;
-
 }
 #logo{
     height: 100%;
-    line-height: 80px;
+    line-height: 50px;
     vertical-align: middle;
+    padding: 5px 0px 5px 20px;
 }
 header span{
-    line-height: 80px;
     font-weight: 900;
     font-size: 40px;
     vertical-align: middle;
