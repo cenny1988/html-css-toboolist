@@ -47,8 +47,8 @@ header span{
 
 /* sezione btn */
 .btn{
-    background-color: transparent;
-    color: lightslategray;
+    /* background-color: transparent; */
+    color: #fff;
     border-radius: 5px;
     border: solid lightslategray 1px;
     font-size: 15px;
@@ -92,39 +92,34 @@ header span{
     color: red
 }
 .btn-task{
-    font-size: 15px;
+    font-size: 10px;
     border-radius: 30px;
-    padding: 0 15px;
-    margin-left: 15px;
+    padding: 5px 15px;
+    margin-left: 8px;
     border: 0px;
+    color: #fff;
 }
-
-
-
-
 
 /* button color */
 .blue-btn{
     background-color: #4da1ff;
-    color: #fff;
 }
 .violet-btn{
     background-color: #b139f7;
-    color: #fff;
 }
 .green-btn{
     background-color: green;
-    color: #fff;
 }
 .orange-btn{
     background-color: orange;
-    color: #fff;
 }
 .pink-btn{
     background-color: palevioletred;
-    color: #fff;
 }
 .lightgreen-btn{
     background-color: rgb(62, 245, 62);
-    color: #fff;
+}
+.white-btn{
+    color: rgb(77, 117, 156);
+    background-color: #fff;
 }
